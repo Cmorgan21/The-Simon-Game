@@ -40,3 +40,35 @@ main {
     background-position: center;
     background-size: cover;
 }
+
+/* Creates a box at the top of the page with a centered list */
+#navigation-container-index {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: rgb(152, 255, 152);
+    box-shadow: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+/* Inlines all content within the navigation bar */
+#nav-list {
+    display: flex;
+    list-style: none;
+    font-family: 'Handjet', cursive;
+    font-size: 1.5rem;
+}
+
+/* Margin for list items within the navigation bar */
+#nav-list li {
+    margin: 0% 20px;
+}
+
+/* Style for anchor tags within list items */
+#nav-list li > a {
+    text-decoration: none;
+    color: black;
+}
