@@ -1,2 +1,22 @@
 /* Import Google Fonts 'Handjet' with a weight of 600 */
 @import url('https://fonts.googleapis.com/css2?family=Handjet:wght@600&display=swap');
+
+/* Reset styles for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Define styles for the HTML element */
+html {
+    height: 100%;
+    width: 100%;
+}
+
+/* Center all content within the main semantic markup */
+main {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
