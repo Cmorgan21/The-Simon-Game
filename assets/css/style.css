@@ -464,3 +464,13 @@ input[type=submit]:hover {
     overflow-x: hidden;
 } 
 
+/* Styles injected table header and row from template literals */
+.th-user-info {
+    padding: 0 60px;
+    border-bottom: solid black 4px;
+}
+
+.tr-user-info {
+    font-size: 17px;
+}
+
