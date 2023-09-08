@@ -499,3 +499,25 @@ input[type=submit]:hover {
     align-items: center;
 }
 
+/* ------- uniform setting footer for pages ------- */
+
+footer {
+    width: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;
+}
+
+#footer-container {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(152, 255, 152);
+}
+
