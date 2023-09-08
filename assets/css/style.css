@@ -578,12 +578,13 @@ footer {
 @media (max-width: 670px) {
 
     /* Uniform navigation styling */
-     #nav-list li {
+    #nav-list li {
         margin: 0% 15px;
     }
 
-    /* Uniform footer styling */
-    #footer-container {
+    #navigation-container-index,
+    #format-navigation-container,
+    #navigation-container-game {
         width: 70%;
     }
 
@@ -592,9 +593,18 @@ footer {
         width: 70%;
     }
 
-    #navigation-container-index,
-    #format-navigation-container,
-    #navigation-container-game {
+    /* howtopplay.html styling */
+    #how-to-play-container {
+        width: 70%;
+    }
+
+    /* highscore.html styling */
+    #highscore-container {
+        width: 70%;
+    }
+
+    /* Uniform footer styling */
+    #footer-container {
         width: 70%;
     }
 
@@ -641,6 +651,25 @@ footer {
 
     /* index.html styling */
     #welcome-container {
+        width: 90%;
+    }
+
+    /* howtopplay.html styling */
+    #how-to-play-container {
+        width: 90%;
+    }
+
+    #how-to-play-container > p {
+        font-size: 1rem;
+    }
+
+    /* highscore.html styling */
+    #highscore-container {
+        width: 90%;
+    }
+
+    /* Uniform footer styling */
+    #footer-container {
         width: 90%;
     }
 
@@ -694,7 +723,6 @@ footer {
 
 @media (max-width: 379px) {
 
-
     /* Uniform navigation styling */
     #nav-list {
         font-size: 1rem;
@@ -702,12 +730,6 @@ footer {
 
     #nav-list li {
         margin: 0% 10px;
-    }
-
-    /* Uniform footer styling */
-    #footer-container a > i {
-        font-size: 25px;
-        margin: 0 15px;
     }
 
     /* index.html styling */
@@ -721,6 +743,43 @@ footer {
 
     #info-container > h2 {
         font-size: 1rem;
+    }
+
+    /* howtopplay.html styling */
+    #how-to-play-container {
+        height: 500px;
+    }
+
+    #how-to-play-container > h1 {
+        font-size: 1.25rem;
+    }
+
+    #how-to-play-container > p {
+        font-size: 0.75rem;
+    }
+
+    /* highscore.html styling */
+    #highscore-container {
+        height: 500px;
+        width: 90%;
+    }
+
+    #highscore-container > h1 {
+        font-size: 1.25rem;
+    }
+
+    .th-user-info > h2 {
+        font-size: 1rem;
+    }
+
+    .tr-user-info {
+        font-size: 0.75rem;
+    }
+
+    /* Uniform footer styling */
+    #footer-container a > i {
+        font-size: 25px;
+        margin: 0 15px;
     }
 
     /* game.html styling */
@@ -754,7 +813,7 @@ footer {
         width: 100px;
         margin: 10px;
     }
-
+    
     #game-title {
         font-size: 1rem;
         letter-spacing: 2px;
