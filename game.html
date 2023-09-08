@@ -11,7 +11,7 @@
 </head>
 <body>
       <!-- Navigation container -->
-      <div id="navigation-container-game">
+    <div id="navigation-container-game">
         <nav>
             <ul id="nav-list">
                 <!-- stores all naviagtion elements in unordered list -->
@@ -22,5 +22,13 @@
             </ul>
         </nav>
     </div>
+    <main id="game-main">
+        <!-- h1 with &nbsp; space to rectify empty heading warning - injected text through game.js -->
+        <h1 id="game-title">&nbsp;</h1>
+        <!-- Screen readers will read input out as the for and ID establish connection-->
+        <label for="sound-toggle" aria-label="Toggle sound on or off">
+            <i id="volume-icon" class="fas fa-volume-up" style="color: white;"></i>
+        </label>
+    </main>
 
 </body>
