@@ -347,3 +347,17 @@ input[type=submit]:hover {
     background-color: green;
     cursor: pointer;
 }
+
+/* Makes button have a pressed look effect by adding class from JavaScript */
+.pressed {
+    background-color: black;
+}
+
+/* Allows background to take precedence over background set already */
+.wrong {
+    background: red !important;
+}
+
+.correct {
+    background: darkgreen !important;
+}
