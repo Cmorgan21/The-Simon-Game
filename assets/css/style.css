@@ -564,6 +564,15 @@ footer {
         font-size: 1.25rem;
     }
 
+    /* index.html styling */
+    #welcome-container > h1 {
+        font-size: 1.5rem;
+    }
+
+    #name-form {
+        width: 50%;
+    }
+
 }
 
 @media (max-width: 670px) {
@@ -575,6 +584,11 @@ footer {
 
     /* Uniform footer styling */
     #footer-container {
+        width: 70%;
+    }
+
+    /* index.html styling */
+    #welcome-container {
         width: 70%;
     }
 
@@ -625,6 +639,11 @@ footer {
         width: 90%;
     }
 
+    /* index.html styling */
+    #welcome-container {
+        width: 90%;
+    }
+
     /* game.html styling */
     #name-form {
         width: 90%;
@@ -659,9 +678,18 @@ footer {
 
     /* Adjust image sizes for smaller screens to support website loading cache */
 
+    #format-body {
+        background-image: url(../images/stars-and-space-smaller.webp);
+    }
+
+    #index-body {
+        background-image: url(../images/stars-and-space-smaller.webp);
+    }
+
     #body-game {
         background-image: url(../images/stars-and-space-smaller.webp);
     }
+
 }
 
 @media (max-width: 379px) {
@@ -680,6 +708,19 @@ footer {
     #footer-container a > i {
         font-size: 25px;
         margin: 0 15px;
+    }
+
+    /* index.html styling */
+    #welcome-container > h1 {
+        font-size: 1.25rem;
+    }
+
+    #welcome-container > p {
+        font-size: 0.75rem;
+    }
+
+    #info-container > h2 {
+        font-size: 1rem;
     }
 
     /* game.html styling */
