@@ -573,6 +573,11 @@ footer {
         margin: 0% 15px;
     }
 
+    /* Uniform footer styling */
+    #footer-container {
+        width: 70%;
+    }
+
     #navigation-container-index,
     #format-navigation-container,
     #navigation-container-game {
@@ -670,7 +675,13 @@ footer {
     #nav-list li {
         margin: 0% 10px;
     }
-    
+
+    /* Uniform footer styling */
+    #footer-container a > i {
+        font-size: 25px;
+        margin: 0 15px;
+    }
+
     /* game.html styling */
     #name-form > label {
         font-size: 1rem;
