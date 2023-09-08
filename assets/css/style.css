@@ -474,3 +474,28 @@ input[type=submit]:hover {
     font-size: 17px;
 }
 
+/* ------- uniform setting body and navigation for all pages ------- */
+
+#format-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/stars-and-space.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#format-navigation-container {
+    height: 50px;
+    width: 50%;
+    margin-bottom: 20px;
+    background-color: rgb(152, 255, 152);
+    box-shadow: 0 0 5px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
