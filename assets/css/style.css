@@ -548,3 +548,133 @@ footer {
     font-size: 0.75rem;
 }
 
+/* ------- media responsiveness ------- */
+
+/* When width dimension is less than the set max-width, modify the stylings below and update them */
+@media (max-width: 950px) {
+    /* game.html styling */
+    #game-container {
+        width: 85%;
+    }
+}
+
+@media (max-width: 670px) {
+
+    /* game.html styling */
+    #name-form {
+        width: 70%;
+    }
+
+    #footer-container-game {
+        width: 70%;
+    }
+
+    #game-container {
+        height: 600px;
+    }
+
+    .box {
+        height: 150px;
+        width: 150px;
+        margin: 25px;
+    }
+
+    #game-banner {
+        height: 10%;
+    }
+
+    #game-banner > h2 {
+        font-size: 1.25rem;
+    }
+
+    #game-title {
+        letter-spacing: 3px;
+    }
+}
+
+@media (max-width: 483px) {
+
+    /* game.html styling */
+    #name-form {
+        width: 90%;
+    }
+
+    #footer-container-game {
+        width: 90%;
+    }
+
+    #game-container {
+        height: 550px;
+    }
+
+    #volume-icon {
+    font-size: 20px;
+    }
+
+    .box {
+        height: 135px;
+        width: 135px;
+        margin: 10px;
+    }
+
+    #game-title {
+        font-size: 1.25rem;
+    }
+
+    #game-banner > h2 {
+        font-size: 1rem;
+        margin: 0;
+    }
+
+    /* Adjust image sizes for smaller screens to support website loading cache */
+
+    #body-game {
+        background-image: url(../images/stars-and-space-smaller.webp);
+    }
+}
+
+@media (max-width: 379px) {
+
+    /* game.html styling */
+    #name-form > label {
+        font-size: 1rem;
+    }
+
+    input[type=text] {
+        height: 40px;
+        width: 50%;
+        font-size: 18px;
+    }
+
+    input[type=submit] {
+        height: 40px;
+        width: 50%;
+        font-size: 1rem;
+    }
+
+    /* Make game board responsive */
+    #game-container {
+        width: 90%;
+    }
+
+    #volume-icon {
+        font-size: 15px;
+    }
+
+    .box {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+    }
+
+    #game-title {
+        font-size: 1rem;
+        letter-spacing: 2px;
+    }
+
+    #game-banner > h2 {
+        font-size: 0.875rem;
+    }
+
+}
+
