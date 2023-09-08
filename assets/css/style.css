@@ -147,3 +147,20 @@ main {
 #info-container > span > a:hover {
     background-color: grey;
 }
+
+/* Style for anchor tag to look like a button */
+#get-started-btn {
+    height: 50px;
+    width: 50%;
+    background-color: transparent;
+    color: black;
+    border: solid black 4px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: 'Handjet', cursive;
+}
+
+/* Hover effect for the button */
+#get-started-btn:hover {
+    background-color: grey;
+}
