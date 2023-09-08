@@ -36,6 +36,23 @@
             <input id="name" placeholder="Name" maxlength="8" name="name" type="text">
             <input type="submit" value="Play Game">
         </form>
+        <div id="game-container">
+            <div id="game-banner">
+                <h2>Player: <span id="player-name"></span></h2>
+                <h2>Score: <span id="score">0</span></h2>
+                <h2>High Score: <span id="high-score">0</span></h2>
+            </div>
+            <div id="game-board">
+                <div class="row">
+                    <div class="box blue" id="blue" aria-label="blue box"></div>
+                    <div class="box red" id="red" aria-label="red box"></div>
+                </div>
+                <div class="row">
+                    <div class="box yellow" id="yellow" aria-label="yellow box"></div>
+                    <div class="box green" id="green" aria-label="green box"></div>
+                </div>
+            </div>
+        </div>
     </main>
 
 </body>
