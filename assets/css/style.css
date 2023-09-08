@@ -20,3 +20,8 @@ main {
     justify-content: center;
     width: 100%;
 }
+
+/* Useful class to hide elements and make them reappear (important for precedence) */
+.hide {
+    display: none !important;
+}
