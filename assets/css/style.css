@@ -208,3 +208,15 @@ main {
 .game-container-transition {
     transition: 3s linear;
 }
+
+#sound-toggle {
+    position: absolute;
+    display: none; /* Hide the checkbox */
+}
+
+#volume-icon {
+    font-size: 25px;
+    display: none;
+
+    cursor: pointer;
+}
