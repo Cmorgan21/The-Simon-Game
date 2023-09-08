@@ -105,3 +105,40 @@ main {
     transition: 3s linear;
     transform: translateY(15px);
 }
+
+/* Margin for h1, h2, and p elements within welcome container */
+#welcome-container > h1,
+#welcome-container > h2,
+#welcome-container > p {
+    margin: 5px 0;
+}
+
+/* Style for paragraph elements within welcome container */
+#welcome-container > p {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/* Style for info container */
+#info-container {
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* Margin for h2 elements within info container */
+#info-container > h2 {
+    margin: 20px 0;
+    font-size: 20px;
+}
+
+/* Style for anchor tags within span elements */
+#info-container > span > a {
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+    border: solid black 4px;
+    font-size: 1rem;
+}
