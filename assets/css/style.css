@@ -220,3 +220,47 @@ main {
 
     cursor: pointer;
 }
+
+/* Styling for the form where the user inputs their name */
+#name-form {
+    height: 400px;
+    width: 35%;
+    background-color: rgb(152, 255, 152);
+    border: solid black 4px;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Styles label for input */
+#name-form > label {
+    font-family: 'Handjet', cursive;
+    font-size: 30px;
+}
+
+/* Styles for input element on game.html */
+input[type=text] {
+    background-color: transparent;
+    border: solid black 4px;
+    margin: 5px;
+    height: 50px;
+    width: 40%;
+    text-align: center;
+    color: black;
+    font-size: 20px;
+    font-family: 'Handjet', cursive;
+}
+
+/* Targets the submit button and allows styling to look like a button */
+input[type=submit] {
+    background: transparent;
+    font-family: 'Handjet', cursive;
+    font-size: 20px;
+    height: 50px;
+    width: 40%;
+    color: black;
+    border: black 4px solid;
+    cursor: pointer;
+}
