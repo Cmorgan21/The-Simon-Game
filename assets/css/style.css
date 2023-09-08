@@ -72,3 +72,8 @@ main {
     text-decoration: none;
     color: black;
 }
+
+/* Hover effect for anchor tags */
+#nav-list li > a:hover {
+    color: grey;
+}
