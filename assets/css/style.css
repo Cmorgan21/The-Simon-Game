@@ -361,3 +361,23 @@ input[type=submit]:hover {
 .correct {
     background: darkgreen !important;
 }
+
+#footer-game {
+    width: 50px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    position: absolute;
+    z-index: -1;
+}
+
+#footer-container-game {
+    height: 50px;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(152, 255, 152);
+}
