@@ -558,7 +558,26 @@ footer {
     }
 }
 
+@media (max-width: 888px) {
+    /* Uniform navigation styling */
+    #nav-list {
+        font-size: 1.25rem;
+    }
+
+}
+
 @media (max-width: 670px) {
+
+    /* Uniform navigation styling */
+     #nav-list li {
+        margin: 0% 15px;
+    }
+
+    #navigation-container-index,
+    #format-navigation-container,
+    #navigation-container-game {
+        width: 70%;
+    }
 
     /* game.html styling */
     #name-form {
@@ -593,6 +612,13 @@ footer {
 }
 
 @media (max-width: 483px) {
+
+    /* Uniform navigation styling */
+    #navigation-container-index,
+    #format-navigation-container,
+    #navigation-container-game {
+        width: 90%;
+    }
 
     /* game.html styling */
     #name-form {
@@ -635,6 +661,16 @@ footer {
 
 @media (max-width: 379px) {
 
+
+    /* Uniform navigation styling */
+    #nav-list {
+        font-size: 1rem;
+    }
+
+    #nav-list li {
+        margin: 0% 10px;
+    }
+    
     /* game.html styling */
     #name-form > label {
         font-size: 1rem;
