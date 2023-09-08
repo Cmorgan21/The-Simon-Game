@@ -313,3 +313,37 @@ input[type=submit]:hover {
     justify-content: center;
     align-items: center;
 }
+
+/* Define height of boxes and color them individually */
+.box {
+    height: 200px;
+    width: 200px;
+    border: solid black 4px;
+    border-radius: 10px;
+    margin: 40px;
+}
+
+/* Puts child elements within the elements with the class of .row to inline */
+.row {
+    display: flex;
+}
+
+.blue {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.red {
+    background-color: red;
+    cursor: pointer;
+}
+
+.yellow {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.green {
+    background-color: green;
+    cursor: pointer;
+}
