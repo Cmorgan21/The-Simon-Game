@@ -164,3 +164,8 @@ main {
 #get-started-btn:hover {
     background-color: grey;
 }
+
+/* Footer transition class for index.js */
+.footer-index {
+    opacity: 0;
+}
