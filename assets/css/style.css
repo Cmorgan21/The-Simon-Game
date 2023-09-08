@@ -25,3 +25,18 @@ main {
 .hide {
     display: none !important;
 }
+
+/* ------- index.html styling ------- */
+
+/* Centers the welcome container */
+#index-body {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url(../images/stars-and-space.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
