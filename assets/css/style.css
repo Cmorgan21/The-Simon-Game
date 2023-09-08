@@ -422,3 +422,26 @@ input[type=submit]:hover {
     font-family: 'Handjet', cursive;
     overflow-y: auto;
 }
+
+#how-to-play-container > p {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Button styling for button on howtoplay.html */
+#get-started-btn-howtoplay {
+    height: 50px;
+    width: 100%;
+    background-color: transparent;
+    color: black;
+    border: solid black 4px;
+    padding: 5px;
+    font-size: 1.5rem;
+    font-family: 'Handjet', cursive;
+    cursor: pointer;
+}
+
+/* Hover effect for button */
+#get-started-btn-howtoplay:hover {
+    background: grey;
+}
