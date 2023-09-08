@@ -196,3 +196,15 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+#game-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Transition class for game.js */
+.game-container-transition {
+    transition: 3s linear;
+}
