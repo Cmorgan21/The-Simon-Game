@@ -142,3 +142,8 @@ main {
     border: solid black 4px;
     font-size: 1rem;
 }
+
+/* Hover effect for anchor tags within span elements */
+#info-container > span > a:hover {
+    background-color: grey;
+}
