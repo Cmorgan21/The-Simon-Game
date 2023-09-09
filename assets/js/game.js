@@ -190,5 +190,31 @@ function startOver() {
     gameSequence = [];
     console.log("startOver function was executed");
     startGame();
+}
+
+document.getElementById("sound-toggle").addEventListener("change", function () {
+    const soundEnabled = this.checked;
+    // Store the soundEnabled state in localStorage
+    localStorage.setItem("soundEnabled", soundEnabled);
+  
+    // Call the toggleSound function to apply the sound 
+    toggleSound(soundEnabled);
+  });
+  
+  function toggleSound(soundEnabled) {
+    const volumeIcon = document.getElementById("volume-icon");
+    if (soundEnabled) {
+      // Sounds are enabled
+      console.log("sound enabled");
+      // Change the icon to indicate sound is enabled
+      volumeIcon.classList.remove("fa-volume-mute");
+      volumeIcon.classList.add("fa-volume-up");
+    } else {
+      // Sounds are disabled
+      console.log("sound disabled");
+      // Change the icon to indicate sound is muted
+      volumeIcon.classList.remove("fa-volume-up");
+      volumeIcon.classList.add("fa-volume-mute");
     }
+}
     
