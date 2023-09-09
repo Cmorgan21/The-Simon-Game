@@ -159,7 +159,7 @@ function checkAnswer(color) {
     
         }
     
-        
+
         let gameBody = document.getElementById("body-game");
         gameBody.classList.add("wrong");
         setTimeout(function() {
@@ -175,3 +175,20 @@ function checkAnswer(color) {
       }, 1200);
     }
 }
+
+function startOver() {
+    // sends score of last game to the high score array
+    highScore.push(score);
+    // finds the max score out of the array
+    let maxScore = Math.max(...highScore);
+    localStorage.setItem("HighScore", (maxScore));
+    // displays the highest score out of the array within the html documnet
+    document.getElementById("high-score").innerHTML = Number(maxScore);
+    // gameStarted will be set to false
+    // gameSequence will then be empty ready for a new game
+    gameStarted = false;
+    gameSequence = [];
+    console.log("startOver function was executed");
+    startGame();
+    }
+    
