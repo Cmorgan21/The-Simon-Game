@@ -217,4 +217,13 @@ document.getElementById("sound-toggle").addEventListener("change", function () {
       volumeIcon.classList.add("fa-volume-mute");
     }
 }
+
+// Function to play a sound
+function playSound(color) {
+
+    const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+    if (soundEnabled) {
+      new Audio("assets/sounds/" + color + ".mp3").play();
+    }
+}
     
