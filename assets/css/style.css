@@ -19,6 +19,7 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
+    overflow: auto; /* allows a scroll effect for content instead of displaying outside of parent */
 }
 
 /* Useful class to hide elements and make them reappear (important for precedence) */
