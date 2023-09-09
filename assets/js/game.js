@@ -76,7 +76,6 @@ function startGame() {
         gameStarted = true;
         document.getElementById("game-title").innerHTML = "Simon Game";
         console.log("Game Started");
-        
       }
     });
 
@@ -157,8 +156,7 @@ function checkAnswer(color) {
           gameBody.classList.remove("correct");
           nextSequence();
         }, 1000);
-      }
-    } else {
+    }} else {
       // checks if the game has started before applying the wrong class
       if (gameStarted) {
         // console logs wrong for validation
@@ -168,9 +166,7 @@ function checkAnswer(color) {
         if (soundEnabled) {
           new Audio("assets/sounds/wrong.mp3").play();
           console.log("wrong audio was executed");
-    
         }
-    
 
         let gameBody = document.getElementById("body-game");
         gameBody.classList.add("wrong");
