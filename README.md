@@ -423,3 +423,23 @@ Under the "Source" dropdown menu, select the branch that contains your project. 
 Once you've selected the branch, GitHub Pages will automatically build and deploy your site. This may take some time
 
 Enjoy your deployed website!
+
+## Credits
+
+### Fonts
+
+- The Font "Handjet, Cursive" in the website is imported from [Google Fonts Handjet Cursive](https://fonts.google.com/specimen/Handjet)
+
+### Sounds / Music
+
+- The sounds from the button presses and victory sound are downloaded from [FreeSounds](https://freesound.org/browse/)
+
+- The sound from getting the sequence wrong are downloaded from [ZapSplat](https://www.zapsplat.com/)
+
+### Images and Icons
+
+- The background image used was from [Unsplashed](https://unsplash.com/)
+
+- Favicon Image is created from [Favicon.cc](https://www.favicon.cc/)
+
+- Linkden and GitHub Icons imported from [Font Awesome](https://fontawesome.com/)
