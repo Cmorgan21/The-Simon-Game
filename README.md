@@ -219,3 +219,64 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 - Vibrant colors and distinctive sound effects are carefully chosen to capture players' attention and enhance the gaming experience.
 
 - The implementation of a scoring system encourages players to challenge themselves continually and compete with their own records
+
+### The Scope Plane
+
+#### Project Aim
+
+- The Simon Game aims to target users who would like to improve and challenge their memory and cognitive thinking and pattern recognition skills.
+
+- Create a easily accessible and simple uniform website to allow users a pleasant user experience where they can play the game after a few clicks.
+
+- Provide a scoring system for the user to display value and give the user a purpose and aim for the game. To beat their own score or a friend's!
+
+- Provide feedback to the user through the website to keep the user updated with clear call to actions.
+
+- Create a game that will get more difficult as you play and will provide a challenge.
+
+- Music for verbal feedback of the game, when you get a sequence correct or wrong. User having the option to turn this on and off.
+
+#### Features
+
+- The Simon Game consists of an online simon game - playing a sequence when the user initiates the game, where they will have to match the sequence and get points each time the sequence is correct.
+
+- Navigation and Footer are consistent throughout the whole website. Main sections are all consistent within all pages and the same layout.
+
+- When a user matches the sequence, they will be displayed with a "Correct!" title, and the background will change to green due to green being associated with victory! This will then increment the score and then continue the sequence for the user to match again.
+
+- User will be giving buttons for places to navigate to depending on what the user is looking for on the landing page. On the game page - the user will be directed to input a username, then will be directed to press a key to initiate the game. After the user gets the incorrect sequence, a clear call to action will be displayed to initiate the game again.
+
+- When the user matches the sequence, the game will then add another color onto the sequence from random. It will then be the user's turn to incorporate the new color added to the sequence. The Simon game will continue to do this until the sequence doesn't match.
+
+- When the game chooses a color, a specific sound designated to that color will be played. These sounds will also be executed if the user gets the sequence correct or incorrect.
+
+#### Timing and Scalability
+
+- To create the most effective game with quality code - the project was disected into sprints
+
+- Sprint 1 : Create wireframes for structure of website and color scheme for supported accessibility and user experince
+
+|                      **Sprint 1**                      | **Description**                                                                                                                                                       |
+| :----------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|                   Create wireframes                    | Create a visual structure of the website and color scheme for supported accessibility and user experience                                                             |
+|                   Research Contrasts                   | Get a strong idea of contrasts and what would be optimal, as Simon Game consists of 4 individual colors                                                               |
+| Deconstruct game functionality into smaller objectives | Create a graph of functionality of the game. Create smaller objectives for the game to be developed in easier chunks, such as separate functions, arrays, and objects |
+
+|     **Sprint 2**     | **Description**                                                                                                                             |
+| :------------------: | :------------------------------------------------------------------------------------------------------------------------------------------ |
+|  Create HTML Pages   | Create HTML pages and add all content within the pages, structuring the semantic markup for better SEO optimization                         |
+| Style HTML with CSS  | Implement styling and create the wireframes within the HTML pages                                                                           |
+| Structure Javascript | Implement the functions and variables needed from the graph of functionality to make the programming objectives easier to target and create |
+
+|                **Sprint 3**                 | **Description**                                                                                                                                                       |
+| :-----------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+|          Create game functionality          | Implement JavaScript code for functionality within all pages needed                                                                                                   |
+|          Optimize Code for viewers          | Add comments to HTML, CSS, and JavaScript to allow viewers to understand what is going on and explain functionality of HTML pages, CSS styling choices, and functions |
+| Source Royalty-Free Music and Sound effects | Improve the user experience by sourcing music and sound effects and implement them within the JavaScript code                                                         |
+
+|        **Sprint 4**         | **Description**                                                                                                                                                      |
+| :-------------------------: | :------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Run code through validators | Run code through HTML, CSS validators, and JSHint for potential bugs and best practices                                                                              |
+|       Lighthouse Test       | Run all websites through Lighthouse tests in Desktop and Mobile to ensure the best user experience and no potential bugs                                             |
+|     Write the README.md     | Create the README.md and explain the website and its features                                                                                                        |
+|       Deploy Website        | Once all features are tested and the README.md is complete, git commit all code with detailed commits and push all commits to GitHub. After this, deploy the website |
