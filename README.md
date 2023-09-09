@@ -6,6 +6,8 @@ The Simon Game is a classic memory game where players must follow and replicate 
 
 ![Simon Game Am I responsive](./assets/images/amiresponsive.png)
 
+#### Live Website: [The Simon Game](https://cmorgan21.github.io/The-Simon-Game/)
+
 ## Contents
 
 - [Features](#features)
