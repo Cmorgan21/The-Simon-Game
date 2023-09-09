@@ -4,7 +4,7 @@
 
 The Simon Game is a classic memory game where players must follow and replicate a sequence of colors and sounds. This site is designed for users who want to test their memory and sequence skills. The Simon Game is a fun and engaging memory challenge that tests your ability to remember and replicate sequences. As you progress without making mistakes, your score and difficulty increases.
 
-![Simon Game Screenshot]()
+![Simon Game Am I responsive](./assets/images/amiresponsive.png)
 
 ## Features
 
@@ -59,7 +59,7 @@ The Simon Game is a classic memory game where players must follow and replicate 
 
 - There is also another call to action to press play button to initiate game for mobile users
 
-![Press Any Key to get Started Title](./assets/images/game-banner-simon-game.png)!
+![Press Any Key to get Started Title](./assets/images/game-banner-simon-game.png)
 
 - When game is iniziated the text changes to the title of the game to feedback to the user the game has started
 
