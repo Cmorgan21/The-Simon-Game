@@ -118,3 +118,15 @@ We use the following icons to represent the sound status:
 - smaller media widths have a scroll effect on the text content so they can scroll down and see all the information easily
 
 ![How to play page](./assets/images/how-to-play-page.png)
+
+### Highscore Page
+
+#### Score Board
+
+- Table Indicating where name and score will display. Users name input and score will be stored and displayed on the table.
+
+- When users input a new name and create a new score. This will also be stored on the leaderbored. If user's name has already been used in current session. The score will be updated.
+
+- Highest score and username will be displayed at the top of the page
+
+![How to play page](./assets/images/highscore-page.png)
