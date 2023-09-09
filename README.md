@@ -409,3 +409,17 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 ### Leaderboards
 
 - Enhance the highscore page by adding global leaderboards, allowing users to see how their scores compare with other players worldwide. Implement a scoring system that rewards players for achieving high scores.
+
+## Deployment
+
+Go to your GitHub repository's page.
+
+Click on the "Settings" tab, located near the top-right corner of the repository.
+
+Scroll down to the "GitHub Pages" section.
+
+Under the "Source" dropdown menu, select the branch that contains your project. If it's in the main branch, choose main.
+
+Once you've selected the branch, GitHub Pages will automatically build and deploy your site. This may take some time
+
+Enjoy your deployed website!
