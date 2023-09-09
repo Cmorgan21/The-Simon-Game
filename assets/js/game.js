@@ -49,4 +49,17 @@ function addName () {
     // calls the startGame function after addName function is completed
     console.log("addName function was executed");
     startGame();
-  }
+}
+
+// const array of colors 
+const colors = ["blue", "red", "yellow", "green"];
+// game sequence where the games chosen color will be stored
+let gameSequence = [];
+// user sequence where users chosen color will be stored
+let userSequence = [];
+// Default of game started is false to disable users from being able to play unless activiated
+let gameStarted = false;
+// will store all scores and will only display the highest score out of all the 
+let highScore = [];
+// score will initially equal zero
+let score = 0;
