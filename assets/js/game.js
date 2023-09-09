@@ -13,9 +13,9 @@ document.addEventListener("DOMContentLoaded", function(){
     gameNavigation.style.opacity = "1";
     gameNavigation.classList.add("game-container-transition");
     // allows all content to appear as content is loaded and a class that has a transition effect is added
-  });
+});
 
-  // When form is submitted this will hide the form and display the game board
+// When form is submitted this will hide the form and display the game board
 function startPage () {
     let form = document.getElementById("name-form");
     let gameContainer = document.getElementById("game-container");
@@ -33,5 +33,20 @@ function startPage () {
       */
       addName();
     }
+}
+
+// After addName function gets called this will retrieve the value of the form value then add it onto the span to display name 
+// takes the input value submitted and then adds it to the span element nested within the game container
+function addName () {
+    let name = document.getElementById("name");
+    let nameCard = document.getElementById("player-name");
+    nameCard.innerHTML = (name.value);
+    document.getElementById("volume-icon").style.display = "block";
+    // sets name within local storage to be accessed to be put on another page
+    localStorage.setItem("name", (name.value));
+    // console.logs to ensure that it has stored
+    console.log(localStorage.getItem("name"));
+    // calls the startGame function after addName function is completed
+    console.log("addName function was executed");
+    startGame();
   }
-  
