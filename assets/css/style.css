@@ -31,6 +31,7 @@ main {
 /* Centers the welcome container */
 #index-body {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -175,6 +176,7 @@ main {
 /* Centers all items */
 #body-game {
     width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -202,6 +204,8 @@ main {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+
+    margin-bottom: 10px;
 }
 
 /* Transition class for game.js */
@@ -363,14 +367,10 @@ input[type=submit]:hover {
 }
 
 #footer-game {
-    width: 50px;
-    height: 100%;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: absolute;
-    z-index: -1;
 }
 
 #footer-container-game {
@@ -478,6 +478,7 @@ input[type=submit]:hover {
 
 #format-body {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -502,14 +503,12 @@ input[type=submit]:hover {
 /* ------- uniform setting footer for pages ------- */
 
 footer {
-    width: 50px;
-    height: 100%;
+    width: 100%;
+    height: 100px;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    position: absolute;
-    z-index: -1;
 }
 
 #footer-container {
