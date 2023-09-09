@@ -104,3 +104,17 @@ We use the following icons to represent the sound status:
 - Sound is **OFF**:
 
 ![Sound Off Icon](./assets/images/sound-off-icon.png)
+
+### How to Play Page
+
+#### How to play content
+
+- Bold Title giving user feedback on page they are on
+
+- Description of what the simon game is, how to start it and how to play the game
+
+- Button with "Let's play" text content navigating you to the game page to input your name. Giving users easy accessibility after reading how to play the game
+
+- smaller media widths have a scroll effect on the text content so they can scroll down and see all the information easily
+
+![How to play page](./assets/images/how-to-play-page.png)
