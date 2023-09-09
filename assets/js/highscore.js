@@ -61,3 +61,9 @@ const table = `
         ${tableBody}
     </tbody>
 </table>`;
+
+// Stores the scoreSystem variable into a string format to be stored within localStorage and is updated with any new modifications
+console.log("Updated scoreSystem in Local Storage:", scoreSystem);
+localStorage.setItem("scoreSystem", JSON.stringify(scoreSystem));
+// injects template literals into the innerHTML of the container
+document.getElementById("highscore-container").innerHTML = table;
