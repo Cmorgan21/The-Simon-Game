@@ -385,3 +385,13 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 - Black and the space theme was used for the background to create a strong contrasr between a brighter colour which would draw a users attention straight to the main point of the website
 
 - Black was used for all text excpet for the title displayed in the Game page. In this case white (#FFFFFF) was used
+
+## Tools and Technologies
+
+- HTML
+- CSS
+- JavaScript
+- Chrome Developer Tools
+- GitHub
+- Validators
+- [Balsamiq](https://balsamiq.com/)
