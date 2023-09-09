@@ -63,3 +63,20 @@ let gameStarted = false;
 let highScore = [];
 // score will initially equal zero
 let score = 0;
+
+function startGame() {
+    //changes the innerHTML to a call to action to intiate game
+    document.getElementById("game-title").innerHTML = "Press Any Key to get Started!";
+    // Listens for an event which will be a key press to invoke handleKeyPress function
+    document.addEventListener("keypress", function handleKeyPress() {
+      // creates an if statement to check if game started is false - if it is. Score will be set to zero gameSequence function will be called to intialize game and gameStarted will then be set to true
+      if (!gameStarted) {
+        score = 0;
+        nextSequence();
+        gameStarted = true;
+        document.getElementById("game-title").innerHTML = "Simon Game";
+        console.log("Game Started");
+        
+      }
+    });
+}
