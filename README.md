@@ -6,6 +6,44 @@ The Simon Game is a classic memory game where players must follow and replicate 
 
 ![Simon Game Am I responsive](./assets/images/amiresponsive.png)
 
+## Contents
+
+- [Features](#features)
+  - [Navigation](#navigation)
+  - [Landing Page](#landing-page)
+  - [Footer](#footer)
+  - [Game Page](#game-page)
+    - [Form for Name](#form-for-name)
+    - [Game Board](#game-board)
+    - [Game Banner](#game-banner)
+    - [Call to Action Text](#call-to-action-text)
+    - [Sound Option](#sound-option)
+    - [Sound Icons](#sound-icons)
+  - [How to Play Page](#how-to-play-page)
+    - [How to Play Content](#how-to-play-content)
+  - [Highscore Page](#highscore-page)
+    - [Score Board](#score-board)
+- [Testing](#testing)
+- [Bugs and Fixes](#bugs-and-fixes)
+  - [Extracting ID from elements](#extracting-id-from-elements)
+  - [Score doubling each time a sequence was correct](#score-doubling-each-time-a-sequence-was-correct)
+  - [User and Score displayed on the scoreboard would display more each time when clicking a link or refreshing a page](#user-and-score-displayed-on-the-scoreboard-would-display-more-each-time-when-clicking-a-link-or-refreshing-a-page)
+- [Unfixed Bugs](#unfixed-bugs)
+- [Design](#design)
+  - [The Strategy Plane](#the-strategy-plane)
+  - [The Scope Plane](#the-scope-plane)
+  - [The Structure Plane](#the-structure-plane)
+  - [The Skeleton Plane](#the-skeleton-plane)
+  - [The Surface Plane](#the-surface-plane)
+- [Tools and Technologies](#tools-and-technologies)
+- [Future Implimentations to Website](#future-implementations-to-website)
+- [Deployment](#deployment)
+- [Credits](#credits)
+  - [Fonts](#fonts)
+  - [Sounds / Music](#sounds-music)
+  - [Images and Icons](#images-and-icons)
+- [Acknowledgements](#acknowledgements)
+
 ## Features
 
 ### Navigation
@@ -133,51 +171,7 @@ We use the following icons to represent the sound status:
 
 ![How to play page](./assets/images/highscore-page.png)
 
-## Testing
-
-The Simon Game has been tested on various browsers and devices to ensure a seamless user experience.
-
-### Validator Testing
-
-- #### HTML Validator
-
-  - ##### index.html - No errors or warnings
-  - ##### game.html - No errors - potential warning in regards to aria labels used correctly for misuse on colours for the game. However this is correclty used for accessibility due to screen readers being able to inform users what colour they may be interacting with
-  - ##### howtoplay.html - No errors or warnings
-  - ##### Index.html - No errors or warnings
-
-- #### CSS Validator
-
-  - ##### style.css - No errors or warnings
-
-- #### JSLint Validator
-  - ##### index.js - No errors or warnings
-  - ##### game.js - startPage function is stated as an unused variable (This variable is initiated within the game.html on a "onsubmit event")
-  - ##### highscore.js - No errors or warnings
-
-### Lighthouse Report
-
-- #### Desktop
-
-  - ##### index.html
-    ![index page Lighthouse Desktop](./assets/images/index-lighhouse-desktop.png)
-  - ##### game.html
-    ![Game page Lighthouse Desktop](./assets/images/game-lighthouse-desktop.png)
-  - ##### howtoplay.html
-    ![How to play page Lighthouse Desktop](./assets/images/howtoplay-lighthouse-desktop.png)
-  - ##### highscore.html
-    ![Highscore Lighthouse Desktop](./assets/images/highscore-lighthouse-desktop.png)
-
-- #### Mobile
-
-  - ##### index.html
-    ![index page Lighthouse Mobile](./assets/images/index-lighthouse-mobile.png)
-  - ##### game.html
-    ![Game page Lighthouse Mobile](./assets/images/game-lighthouse-mobile.png)
-  - ##### howtoplay.html
-    ![How to play page Lighthouse Mobile](./assets/images/howtoplay-lighthouse-mobile.png)
-  - ##### highscore.html
-    ![Highscore Lighthouse Mobile](./assets/images/highscore-lighthouse-mobile.png)
+## For Testing go to [Testing README](./Testing.md)
 
 ### Bugs and fixes
 
