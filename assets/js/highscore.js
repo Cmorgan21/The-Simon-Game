@@ -35,3 +35,14 @@ if (userName && score) {
 
 // Sort the scoreSystem array in descending order from score
 scoreSystem.sort((a, b) => b.score - a.score);
+
+// sets the variable to empty so back ticks can inject html code into it using += expression
+let tableBody = "";
+// loops through all the stored objects and accessesing them and injecting them into a HTML using template literals
+for (let i = 0; i < scoreSystem.length; i++) {
+    tableBody += `
+    <tr>
+        <td class="tr-user-info"><h3>${scoreSystem[i].userName}</h3></td>
+        <td class="tr-user-info"><h3>${scoreSystem[i].score}</h3></td>
+    </tr>`;
+}
