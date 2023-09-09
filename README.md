@@ -280,3 +280,62 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 |       Lighthouse Test       | Run all websites through Lighthouse tests in Desktop and Mobile to ensure the best user experience and no potential bugs                                             |
 |     Write the README.md     | Create the README.md and explain the website and its features                                                                                                        |
 |       Deploy Website        | Once all features are tested and the README.md is complete, git commit all code with detailed commits and push all commits to GitHub. After this, deploy the website |
+
+### The Structure Plane
+
+#### Purpose of the Game
+
+- **Objective:** To create a classic memory game where players must follow and replicate a sequence of colors and sounds.
+- **Target Audience:** All ages, including individuals looking to challenge their memory skills and those who enjoy gaming.
+- **Sensory Needs:** Designed to cater to individuals with sensory needs by incorporating vibrant colors and distinctive sounds for sensory stimulation.
+
+#### Navigation
+
+- **Navigation Menu:** Provides links to Home, Play, How to Play, and Highscore pages for easy navigation.
+- **Consistency:** Maintains a consistent navigation menu across all pages, with the current page highlighted for clarity.
+
+#### Landing Page
+
+- **Introduction:** Introduces the game with a clear name and a brief overview.
+- **Interactive Buttons:** Offers buttons for How to Play, Highscore, and Let's Play, with a focus on the "Let's Play" button.
+- **Button Hover Effects:** Enhances user interactivity with hover effects to guide them through the page.
+
+#### Footer
+
+- **External Links:** Includes links to LinkedIn and GitHub for users to connect and learn more about the creator.
+- **Hover Effects:** Indicates user interaction on icons for improved accessibility.
+
+#### Game Page
+
+#### Form for Name
+
+- **Username Prompt:** Asks users to enter their username for personalization.
+- **Play Game Button:** Provides an eye-catching button to guide users to start the game.
+- **Name Alert:** Prompts users to input their name if missing for a personalized experience.
+
+#### Game Board
+
+- **Display:** Displays the game board with consistent navigation and footer.
+- **Color Sequences:** Generates color sequences and corresponding sounds for the game.
+- **User Interaction:** Provides visual and auditory feedback when users interact with the game.
+
+#### Game Banner
+
+- **Player Information:** Prominently displays the player's name, score, and high score.
+- **Score Tracking:** Tracks and updates scores as users play, starting each session at zero.
+- **Call to Action:** Encourages users to start or restart the game with clear calls to action.
+
+#### How to Play Page
+
+- **Title:** Features a bold title indicating the page's purpose.
+- **Instructions:** Provides a description of the Simon Game, how to start it, and how to play.
+- **"Let's Play" Button:** Offers easy access to the game page after reading the instructions.
+- **Responsive Design:** Ensures scrollable text content for smaller media widths.
+
+#### Highscore Page
+
+#### Score Board
+
+- **Table:** Displays a table for users' names and scores, storing and updating data.
+- **Name and Score Storage:** Records and displays user input and scores on the leaderboard.
+- **Top Score:** Highlights the highest score and username at the top of the page.
