@@ -66,7 +66,7 @@ let score = 0;
 
 function startGame() {
     //changes the innerHTML to a call to action to intiate game
-    document.getElementById("game-title").innerHTML = `Press Any Key to get Started!`;
+    document.getElementById("game-title").innerHTML = `Press <i class="fa-solid fa-play play-button" style="color: #ffffff;"></i> or Any Key to get Started!`;
     // Listens for an event which will be a key press to invoke handleKeyPress function
     document.addEventListener("keypress", function handleKeyPress() {
       // creates an if statement to check if game started is false - if it is. Score will be set to zero gameSequence function will be called to intialize game and gameStarted will then be set to true
@@ -81,7 +81,7 @@ function startGame() {
     });
 
     // adds event listener for play button object
-    let playButton = document.getElementsByClassName("play-button")[0];
+    let playButton = document.getElementsByClassName("play-button")[1]; // targets second object with this class
       playButton.addEventListener("click", function() {
       if (!gameStarted) {
           score = 0;
@@ -183,7 +183,7 @@ function checkAnswer(color) {
       // indicates to user that they inputted wrong sequence and then changes text back to call to action to start game
       document.getElementById("game-title").innerHTML = "Wrong! Try Again";
       setTimeout(function() {
-        document.getElementById("game-title").innerHTML = "Press Any Key to get Started!";
+        document.getElementById("game-title").innerHTML = `Press <i class="fa-solid fa-play play-button" style="color: #ffffff;"></i> or Any Key to get Started!`;
       }, 1200);
     }
 }

@@ -19,6 +19,9 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+
+#index-main {
     overflow: auto; /* allows a scroll effect for content instead of displaying outside of parent */
 }
 
@@ -224,6 +227,11 @@ main {
     display: none;
 
     cursor: pointer;
+}
+
+.play-button {
+    cursor: pointer;
+    font-size: 20px;
 }
 
 /* Styling for the form where the user inputs their name */
