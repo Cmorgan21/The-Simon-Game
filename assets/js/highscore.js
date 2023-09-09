@@ -46,3 +46,18 @@ for (let i = 0; i < scoreSystem.length; i++) {
         <td class="tr-user-info"><h3>${scoreSystem[i].score}</h3></td>
     </tr>`;
 }
+
+// injects the tableBody variable into table variable to display within the highscore.html page
+const table = `
+<h1>High Score</h1>
+<table>
+    <thead>
+        <tr>
+            <th class="th-user-info"><h2>Name</h2></th>
+            <th class="th-user-info"><h2>Score</h2></th>
+        </tr>
+    </thead>
+    <tbody>
+        ${tableBody}
+    </tbody>
+</table>`;
