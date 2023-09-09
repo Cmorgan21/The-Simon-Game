@@ -57,7 +57,9 @@ The Simon Game is a classic memory game where players must follow and replicate 
 
 - Users are encouraged to start the game with a clear call to action: "Press any key to started!"
 
-![Press Any Key to get Started Title](./assets/images/game-banner-simon-game.png)
+- There is also another call to action to press play button to initiate game for mobile users
+
+![Press Any Key to get Started Title](./assets/images/game-banner-simon-game.png)!
 
 - When game is iniziated the text changes to the title of the game to feedback to the user the game has started
 
