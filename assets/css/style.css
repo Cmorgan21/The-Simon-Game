@@ -652,6 +652,10 @@ footer {
 
 @media (max-width: 483px) {
 
+    main {
+        margin-bottom: 20px;
+    }
+
     /* Uniform navigation styling */
     #navigation-container-index,
     #format-navigation-container,
@@ -719,6 +723,7 @@ footer {
 
     #format-body {
         background-image: url(../images/stars-and-space-smaller.webp);
+        background-repeat: repeat;
     }
 
     #index-body {
