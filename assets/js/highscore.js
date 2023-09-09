@@ -32,3 +32,6 @@ if (userName && score) {
         scoreSystem[existingUserIndex].score = score;
     }
 }
+
+// Sort the scoreSystem array in descending order from score
+scoreSystem.sort((a, b) => b.score - a.score);
