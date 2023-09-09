@@ -197,3 +197,25 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 ### Unfixed Bugs
 
 - No unfixed bugs
+
+## Design
+
+### The Strategy Plane
+
+#### Purpose of Game
+
+- The Simon Game is a fun and challenging experience that tests and improves memory, concentration, and pattern recognition. It offers players a challenege, entertainment and satisfaction through gameplay.
+
+#### Target Audience
+
+- The Target Audience of the Simon game is for all ages, The simon game has a very versatile and dynamic use. This could be targeted for users looking to challenge their memory skills, people that enjoy gaming.
+
+- Another interesting targeted audience this is targted towards are people will sensory needs. The combination of vibrant colors and distinctive sounds offers sensory stimulation and serves as a sensory distraction tool.
+
+#### Strategy of Game
+
+- The game has a very simplistic but visually appearling apperance. This supports all users in being able to easily navigate through the website without affecting user experince. The strategy of the game is to give a quick, fun and dynamic way of playing a game that challenges you
+
+- Vibrant colors and distinctive sound effects are carefully chosen to capture players' attention and enhance the gaming experience.
+
+- The implementation of a scoring system encourages players to challenge themselves continually and compete with their own records
