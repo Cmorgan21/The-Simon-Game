@@ -14,10 +14,6 @@ html {
     width: 100%;
 }
 
-#index-html {
-    height:unset;
-}
-
 /* Center all content within the main semantic markup */
 main {
     display: flex;
