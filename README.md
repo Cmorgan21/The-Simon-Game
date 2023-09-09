@@ -395,3 +395,17 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 - GitHub
 - Validators
 - [Balsamiq](https://balsamiq.com/)
+
+## Future Implimentations to Website
+
+### Multiplayer Mode
+
+- Implement a multiplayer mode that allows users to compete against each other online. This could involve real-time gameplay challenges or a turn-based mode where players take turns and compete for the highest score.
+
+### Levels and Difficulty Settings
+
+- Create different levels of difficulty. Introduce more colours or button and potentially also add a timer to apply more pressure to user
+
+### Leaderboards
+
+- Enhance the highscore page by adding global leaderboards, allowing users to see how their scores compare with other players worldwide. Implement a scoring system that rewards players for achieving high scores.
