@@ -226,4 +226,11 @@ function playSound(color) {
       new Audio("assets/sounds/" + color + ".mp3").play();
     }
 }
+
+// will animate the button that has been pressed
+function buttonAnimation (color) {
+    document.querySelector("#" + color).classList.add("pressed");
+    // will remove the class list after a certain amount of time
+    setTimeout(() => { document.querySelector("#" + color).classList.remove("pressed"); }, 300); 
+    }
     
