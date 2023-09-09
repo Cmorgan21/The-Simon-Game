@@ -80,3 +80,22 @@ function startGame() {
       }
     });
 }
+
+function nextSequence () {
+    // user sequence gets reset everytime that the game sequence adds a new color to the sequence
+    userSequence = [];
+    // score is displayed
+    document.getElementById("score").innerHTML = (score);
+    // A random color is generated from 0-3
+    let randomColor = Math.floor(Math.random() * 4);
+    // allows a random color to be chosen from the colors array
+    let gameColor = colors[randomColor];
+    // pushes the random color to the gameSequence array
+    gameSequence.push(gameColor);
+    // Sends the game color as a parameter to the functions
+    playSound(gameColor);
+    buttonAnimation(gameColor);
+    // console logs the gameSequence to ensure that the gameSequence has added the new random color
+    console.log(gameSequence);
+    console.log("nextSequence function was executed");
+  }
