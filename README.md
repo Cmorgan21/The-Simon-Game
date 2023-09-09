@@ -29,3 +29,78 @@ The Simon Game is a classic memory game where players must follow and replicate 
 - Hover effects on icons indicate user interaction for improved accessibility.
 
 ![Footer](./assets/images/footer.png)
+
+### Game Page
+
+#### Form for Name
+
+- Users are prompted to enter their username, personalizing the game experience.
+- A "Play Game" button with an eye-catching design is provided, guiding users on the next steps.
+- An alert prompts users to input their name if it's missing, ensuring a personalized experience.
+
+![Alert for Name Input](./assets/images/name-alert.png)
+
+#### Game Board
+
+- Upon entering a username, the game board is displayed with a consistent navigation menu and footer.
+
+![Game Board](./assets/images/game-board.png)
+
+#### Game Banner
+
+- The game banner prominently displays the player's name, score, and high score.
+- Scores are tracked and updated as the user plays, with each session starting at zero.
+
+![Game Banner with Score](./assets/images/game-banner-with-score.png)
+
+#### Call to Action Text
+
+- Users are encouraged to start the game with a clear call to action: "Press any key to started!"
+
+![Press Any Key to get Started Title](./assets/images/game-banner-simon-game.png)
+
+- When game is iniziated the text changes to the title of the game to feedback to the user the game has started
+
+![Simon Game Title](./assets/images/game-banner-with-score.png)
+
+- When a user doesn't match the sequence the title changes to "Wrong! Try Again" to feedback to the user that the sequence is wrong.
+
+- Displays a red background to catch the users attention to a change within the game with a soound to indicate game over.
+
+![Try Again Title](./assets/images/try-again-title.png)
+
+- When a user matches the sequence the title changes to "Correct!" to feedback to the user that the sequence has been matched.
+
+- Displays a green dark green background with the text and a small victory sound to indicate user has got a point
+
+![Correct Title](./assets/images/correct-title.png)
+
+#### Game Board
+
+- Game will begin the sequence by displaying a color with a pressed effect
+
+- Each individual color has a specific sound to give the user another method of remembering a sequence
+
+- When user presses color it will display a pressed looked to feedback to the user of the button they have clicked with the sound too to drive user engagment.
+
+#### Sound Option
+
+The Simon Game includes an option for controlling sound effects. Users can toggle the sound on or off based on their preference.
+
+To enable or disable sound effects in the game, follow these steps:
+
+- On the game page, look for the sound toggle switch located near the game board.
+
+- As you toggle the sound switch, you will receive a confirmation message indicating whether sound is now on or off.
+
+### Sound Icons
+
+We use the following icons to represent the sound status:
+
+- Sound is **ON**:
+
+![Sound On Icon](./assets/images/sound-on-icon.png)
+
+- Sound is **OFF**:
+
+![Sound Off Icon](./assets/images/sound-off-icon.png)
