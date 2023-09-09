@@ -98,4 +98,21 @@ function nextSequence () {
     // console logs the gameSequence to ensure that the gameSequence has added the new random color
     console.log(gameSequence);
     console.log("nextSequence function was executed");
-  }
+}
+
+// for each box a click event listener is added with the paramater of box
+document.querySelectorAll(".box").forEach(function(box) {
+    box.addEventListener("click", function() {
+      // using this to target the attribute's ID that has been clicked
+      let color = this.getAttribute("id");
+      // pushes the users chosen color to the userSequence's array
+      userSequence.push(color);
+      // logs the userSequence to ensure that it has been added
+      console.log(userSequence);
+      // takes the color value as a parameter and sends them to the functions 
+      playSound(color);
+      buttonAnimation(color);
+      // - 1 to target the last index as length will be 1 extra
+      checkAnswer(userSequence.length -1);
+    });
+});
