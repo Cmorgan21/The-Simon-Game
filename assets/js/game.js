@@ -66,7 +66,7 @@ let score = 0;
 
 function startGame() {
     //changes the innerHTML to a call to action to intiate game
-    document.getElementById("game-title").innerHTML = "Press Any Key to get Started!";
+    document.getElementById("game-title").innerHTML = `Press Any Key to get Started!`;
     // Listens for an event which will be a key press to invoke handleKeyPress function
     document.addEventListener("keypress", function handleKeyPress() {
       // creates an if statement to check if game started is false - if it is. Score will be set to zero gameSequence function will be called to intialize game and gameStarted will then be set to true
@@ -79,6 +79,18 @@ function startGame() {
         
       }
     });
+
+    // adds event listener for play button object
+    let playButton = document.getElementsByClassName("play-button")[0];
+      playButton.addEventListener("click", function() {
+      if (!gameStarted) {
+          score = 0;
+          nextSequence();
+          gameStarted = true;
+          document.getElementById("game-title").innerHTML = "Simon Game";
+          console.log("Game Started");
+      }
+  });
 }
 
 function nextSequence () {
@@ -232,5 +244,5 @@ function buttonAnimation (color) {
     document.querySelector("#" + color).classList.add("pressed");
     // will remove the class list after a certain amount of time
     setTimeout(() => { document.querySelector("#" + color).classList.remove("pressed"); }, 300); 
-    }
-    
+}
+  
