@@ -14,3 +14,21 @@ if (localStorage.getItem("scoreSystem")) {
     scoreSystem = JSON.parse(localStorage.getItem("scoreSystem"));
     console.log("scoreSystem:", scoreSystem);
 }
+
+/* 
+pushes usernames and scores stored from local storage and inserts them into an object
+ displays when variable is entered and stored equalling to truthy value
+*/
+if (userName && score) {
+    // Check if the user is already in the scoreSystem array
+    const existingUserIndex = scoreSystem.findIndex(user => user.userName === userName);
+    if (existingUserIndex === -1) {
+        scoreSystem.push({
+            userName: userName,
+            score: score
+        });
+    } else {
+        // Update the score if the user already exists
+        scoreSystem[existingUserIndex].score = score;
+    }
+}
