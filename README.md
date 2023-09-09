@@ -365,3 +365,23 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 ![Highscore Wireframe](./assets/images/highscore-wireframe.png)
 
 - All Pages have been fully optimised on mobile and are displayed the same as the wireframe designs
+
+### The Surface Plane
+
+#### Typography
+
+- All text content was encased in the font-family: 'Handjet', cursive; This was create a very game style like environment
+
+![Handjet Font](./assets/images/font-family-handjet.png)
+
+#### Colour Scheme
+
+![Colour Scheme](./assets/images/colour-scheme.png)
+
+- Davy's Grey was used for Navigation Links to indiciate the page the user was on
+
+- Grey was used to indicate to a user what navigational link they were currently hovering over
+
+- Black and the space theme was used for the background to create a strong contrasr between a brighter colour which would draw a users attention straight to the main point of the website
+
+- Black was used for all text excpet for the title displayed in the Game page. In this case white (#FFFFFF) was used
