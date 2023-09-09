@@ -61,7 +61,7 @@ The Simon Game is a classic memory game where players must follow and replicate 
 - It features interactive buttons for How to Play, Highscore, and Let's Play, with a focus on the "Let's Play" button.
 - Button hover effects enhance user interactivity and guide them through the page.
 
-![Landing Page](./assets/images/landing-page.png)
+![Landing Page](./assets/images/index-page.png)
 
 ### Footer
 
