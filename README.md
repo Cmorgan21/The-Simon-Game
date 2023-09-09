@@ -443,3 +443,19 @@ Enjoy your deployed website!
 - Favicon Image is created from [Favicon.cc](https://www.favicon.cc/)
 
 - Linkden and GitHub Icons imported from [Font Awesome](https://fontawesome.com/)
+
+## Acknowledgements
+
+- Structure and all components of HTML, CSS and Javascript are all learnt from Code Institute
+
+- Understanding of retrieving and comparing the last element in an array is from [Get the last item in an array - StackOverflow](https://stackoverflow.com/questions/3216013/get-the-last-item-in-an-array)
+
+- Reminder of Local Storage and how to store values is from [dcode - Storing Objects with Local Storage in JavaScript](https://www.google.com/search?q=localstorage+javascript&sca_esv=563547874&biw=1440&bih=815&tbm=vid&ei=o1P6ZPCtDff87_UPrY-SkAg&oq=localstorage+javas&gs_lp=Eg1nd3Mtd2l6LXZpZGVvIhJsb2NhbHN0b3JhZ2UgamF2YXMqAggAMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEidD1DEA1isCHAAeACQAQCYAUKgAaEDqgEBN7gBAcgBAPgBAcICBxAAGIoFGEOIBgE&sclient=gws-wiz-video#fpstate=ive&vld=cid:65358251,vid:AUOzvFzdIk4) Respectfully
+
+- The time out function was learnt from [MDN Webdocks](https://developer.mozilla.org/en-US/docs/Web/API/setTimeout)
+
+- Concept of playing an audio [How to play audio? - StackOverflow](https://stackoverflow.com/questions/9419263/how-to-play-audio)
+
+- Using .findIndex method within an Object to check is a username exists [How can I get the index of an object by its property in JavaScript? - StackOverflow](https://stackoverflow.com/questions/7176908/how-can-i-get-the-index-of-an-object-by-its-property-in-javascript)
+
+- Concept of creating a scoreboard that puts the highest score at the top [Sort Array with Two Factors - StackOverflow](https://stackoverflow.com/questions/51738542/sort-array-with-two-factors-score-and-time-taken)
