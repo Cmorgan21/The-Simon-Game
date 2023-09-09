@@ -339,3 +339,29 @@ The Simon Game has been tested on various browsers and devices to ensure a seaml
 - **Table:** Displays a table for users' names and scores, storing and updating data.
 - **Name and Score Storage:** Records and displays user input and scores on the leaderboard.
 - **Top Score:** Highlights the highest score and username at the top of the page.
+
+### The Skeleton Plane
+
+#### Wireframes
+
+- **Index Page**
+
+![Index Wireframe](./assets/images/landing-page-wireframe.png)
+
+- **User Input on Game Page**
+
+![User Input Wireframe](./assets/images/user-input-wireframe.png)
+
+- **Game Page**
+
+![Game Wireframe](./assets/images/game-wireframe.png)
+
+- **How to play Page**
+
+![How to play Wireframe](./assets/images/Howtoplay-wireframe.png)
+
+- **Highscore**
+
+![Highscore Wireframe](./assets/images/highscore-wireframe.png)
+
+- All Pages have been fully optimised on mobile and are displayed the same as the wireframe designs
