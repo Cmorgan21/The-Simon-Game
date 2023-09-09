@@ -116,3 +116,62 @@ document.querySelectorAll(".box").forEach(function(box) {
       checkAnswer(userSequence.length -1);
     });
 });
+
+function checkAnswer(color) {
+    // checks to see if game sequence and user sequence matches
+    if (userSequence[color] === gameSequence[color]) {
+      if (userSequence.length === gameSequence.length) {
+        document.getElementById("game-title").innerHTML = "Correct!";
+        let gameBody = document.getElementById("body-game");
+        gameBody.classList.add("correct");
+    
+        //plays victory audio
+        const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+        if (soundEnabled) {
+          new Audio("./assets/sounds/success.mp3").play();
+          console.log("Success audio was executed");
+        }
+    
+        /* 
+         if it all matches - this will then console log succes for validation
+         increment score
+         call nextSequence function and loop through the code again
+        set time out so it will move straight on with the code 
+        */
+        console.log("Success");
+        score++;
+        setTimeout(() => {
+          document.getElementById("game-title").innerHTML = "Simon Game";
+          gameBody.classList.remove("correct");
+          nextSequence();
+        }, 1000);
+      }
+    } else {
+      // checks if the game has started before applying the wrong class
+      if (gameStarted) {
+        // console logs wrong for validation
+        // adds a classlist of wrong to display a red effect 
+        console.log("Wrong");
+        const soundEnabled = localStorage.getItem("soundEnabled") === "true";
+        if (soundEnabled) {
+          new Audio("assets/sounds/wrong.mp3").play();
+          console.log("wrong audio was executed");
+    
+        }
+    
+        
+        let gameBody = document.getElementById("body-game");
+        gameBody.classList.add("wrong");
+        setTimeout(function() {
+          gameBody.classList.remove("wrong");
+        }, 1000);
+        // calls the startOver function where it will reset everything
+        startOver();
+      }
+      // indicates to user that they inputted wrong sequence and then changes text back to call to action to start game
+      document.getElementById("game-title").innerHTML = "Wrong! Try Again";
+      setTimeout(function() {
+        document.getElementById("game-title").innerHTML = "Press Any Key to get Started!";
+      }, 1200);
+    }
+}
